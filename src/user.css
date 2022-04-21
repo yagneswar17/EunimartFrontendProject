@@ -1,0 +1,9 @@
+.user {
+    text-align: center;
+}
+.user-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+

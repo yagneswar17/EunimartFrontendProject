@@ -1,0 +1,54 @@
+.Usercard-Info1 {
+    width:150px;
+    padding: 2px;
+    margin: 1rem;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0, 0.56);
+    text-align: center;
+    background-color: green;
+    border-radius: 6px;
+}
+
+.Usercard-Info2 {
+    width:150px;
+    padding: 2px;
+    margin: 1rem;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0, 0.56);
+    text-align: center;
+    background-color: red;
+    border-radius: 6px;
+}
+
+.Usercard-title {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.Usercard-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #eceff1;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.Usercard-Info2 img {
+    height: 100px;
+    transition: all ease 500ms;
+}
+
+.Usercard-Info2 img:hover {
+    transform: scale(1.25);
+    opacity: 0.8;
+}
+
+.Usercard-Info1 img {
+    height: 100px;
+    transition: all ease 500ms;
+}
+
+.Usercard-Info1 img:hover {
+    transform: scale(1.25);
+    opacity: 0.8;
+}
